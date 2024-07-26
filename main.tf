@@ -15,7 +15,7 @@ terraform {
 }
 
 provider "aws" {
-  //profile                  = "default"
+  //profile                  = "default
   shared_config_files      = ["~/.aws/config"]
   shared_credentials_files = ["~/.aws/credentials"]
   region                   = "us-east-1"
